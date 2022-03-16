@@ -28,7 +28,7 @@ class Home extends React.Component{
                     </div>
                     <div className="Characters">
                         {this.state.characters.map((character) => {
-                            return <Character character = {character} />
+                            return <Character character = {character} key={character.id}/>
                         } )}
                     </div>
                 </div>
