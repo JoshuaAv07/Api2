@@ -24,7 +24,7 @@ class Home extends React.Component{
             <React.Fragment>
                 <div className="back">
                     <div className="logoHolder">
-                        <img className="logo" src="" alt="Rick and Morty"/>
+                        <img className="logo" src="https://www.picng.com/upload/star_wars_logo/png_star_wars_logo_65419.png" alt="Rick and Morty"/>
                     </div>
                     <div className="Characters">
                         {this.state.characters.map((character) => {
