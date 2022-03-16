@@ -25,8 +25,7 @@ class Http{
         try{
             const request = await fetch (`${URL}${id}`)
             const response = await request.json()
-            console.log(response)
-            return response
+            return response.data
     
         }catch(err){
             throw new Error(err);
