@@ -6,11 +6,11 @@ const Character = (props) =>{
     const { character } = props
     return(
         <React.Fragment>
-            <div class="Characters">
+            <div className="Characters">
                 <div className = "Character__container">
                 <Link 
                     className="Character__image"
-                    to={`characters/${character.id}`}
+                    to={`character/${character.id}`}
                 >
                     <h2 className = "Character__name">{props.character.name}</h2>
                 </Link>
