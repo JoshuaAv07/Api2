@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+.back{
+    background-color: black;
+}
+.logo {
+    display:block;
+    margin:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    height: 200px;
+}

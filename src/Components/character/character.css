@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.Tag__container{
+    display:block;
+    margin:auto;
+}
+.Character__container{
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 450px;
+    height: 180px;
+    background-color: #5c4242;
+    border-color: yellow;
+    border-width: 10px;
+}
+.Character__image{
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+.Character__data{
+    margin-left: 10px;
+}
+h2{
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 10px;
+    color: yellow;
+}
+p, small{
+    color: gainsboro;
+    margin: 0;
+    padding-left: 30px;
+}
